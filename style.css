@@ -1,0 +1,81 @@
+*{
+    margin: 0PX;
+    padding: 0px;
+}
+
+nav{
+    margin-left: 200px;
+    height: 100px;
+}
+.navbar-brand{
+    margin-left: 30px;
+}
+#navtab a{
+    font-weight: 500;
+}
+#navtab a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.rows{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 350px;
+    height: 900px;
+    background-color: rgb(231, 226, 226);
+    margin: 20px;
+    transition: all 0.8s;
+
+}
+.box:hover{
+    background-position: right bottom;
+    background-color: white;
+    border: none;
+    box-shadow: 3px 8px 6px 10px rgb(140, 140, 141);
+}
+.box img{
+    width: 100%;
+}
+.box h6{
+    margin-left: 20px;
+    color: purple;
+}
+#textmain{
+    margin-left: 20px;
+}
+.buttons{
+    margin-left: 50px;
+}
+#butt:hover{
+    background-color: purple;
+    color: white;
+}
+.imagen{
+    color: #9e0a99;
+    font-size:100px;
+    padding: 10px;
+    border: 0px solid gray;
+    border-radius: 50%;
+    background-color: rgb(196, 191, 191);
+    text-align: center;
+    
+}
+.abcd img{
+    text-align: center;
+}
+.abcd h1 {
+    position: absolute;
+    top:4100px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    left: 30px;
+
+}
+.abcd .buttons{
+    position: absolute;
+    top: 4200px;
+  left: 650px;
+}
